@@ -12,12 +12,12 @@
             <li><a href="">About</a></li>
           </ul>
       </div>
-        <form style="width:50%; margin:auto;" action="" method="POST">
+      <h1 style="text-align:center; ">Create a Protest</h1>
+        <form style="width:50%; margin:auto; margin-top: 20px;" action="createProtest.php" method="POST">
                 <fieldset>
-                <legend>Create a Protest</legend>
-                  Name <input type="text" style="width:50%"/> <br />
-                  City <input type="text"/>
-                  State <select>
+                  Name <input type="text" style="width:50%" name="name"/> <br />
+                  City <input type="text" name="city"/>
+                  State <select name="state">
                     <option value="" selected="true"></option>
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
@@ -71,19 +71,19 @@
                     <option value="WI">Wisconsin</option>
                     <option value="WY">Wyoming</option>
                 </select> <br />
-                  Date <input type="date"/> <br />
-                  Start <input type="time"/>
+                  Date <input type="date" name="date"/> <br />
+                  Start <input type="time" name="time"/>
                 </fieldset>
 
                 <fieldset>
                 <div>
-                  Purpose <input type="text" style="width:100%"/>
+                  Purpose <input type="text" style="width:100%" name="purpose"/>
                 </div>
                 <div>
-                  Short description <input type="text" style="width: 100%"/>
+                  Short description <input type="text" style="width: 100%" name="short"/>
                 </div>
                 <div>
-                  Long description<textarea style="width: 100%"></textarea>
+                  Long description<textarea style="width: 100%" name="long"></textarea>
                 </div>
                 </fieldset>
 
