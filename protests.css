@@ -1,5 +1,41 @@
+body {
+  background-color: #4C555C;
+  color: white;
+}
 
+#create-button {
+  background-color: #972E32;
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 60px;
+}
 
+#create-button p {
+  font-size: 12pt;
+  padding: 10px;
+  text-align: center;
+}
+
+header {
+  background-image: url("images/background.jpg");
+  text-align: center;
+  height: 450px;
+  width: 100%;
+}
+
+header > span{
+  color: #4C555C;
+  display: block;
+  padding: 50px;
+  text-decoration: underline;
+}
+
+header span, #create-button {
+  font-size: 48pt;
+}
 
 #nav-bar li {
     float: right;
@@ -14,7 +50,7 @@
 }
 
 #nav-bar li a:hover {
-  background-color: green;
+  background-color: #E0BFAC;
 }
 
 #nav-bar ul {
@@ -22,5 +58,5 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #838C9D;
 }
