@@ -15,6 +15,7 @@
                     <h2>
                         <?= $purpose ?>
                     </h2>
+                    <img src="images/background-header.jpg" alt="Protest image">
                     <p class="info">
                         Date: <?= $date ?>
                     </p>
@@ -63,6 +64,7 @@
         </header>
 
         <div id="event-div">
+        <p id="upcoming">Upcoming Events</p>
         <?php
     }
 

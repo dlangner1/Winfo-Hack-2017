@@ -42,10 +42,17 @@ header span, #create-button {
 }
 
 .events {
+    font-size: 150%;
     background-color: #972E32;
     color: white;
     margin-left: auto;
     margin-left: auto;
+}
+
+.events img {
+    height: 15%;
+    width: 20%;
+    float: left;
 }
 
 #nav-bar li {
@@ -70,4 +77,10 @@ header span, #create-button {
     padding: 0;
     overflow: hidden;
     background-color: #838C9D;
+}
+
+#upcoming {
+    text-align: center;
+    font-size: 30pt;
+    text-decoration: underline;
 }
