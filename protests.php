@@ -13,7 +13,7 @@
                 ?>
                 <div class="events">
                     <h2>
-                        <a href="eventPage.html"><?= $purpose ?></a>
+                        <?= $purpose ?>
                     </h2>
                     <img src="images/background-header.jpg" alt="Protest image">
                     <p class="info">

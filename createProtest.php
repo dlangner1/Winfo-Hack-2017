@@ -13,7 +13,7 @@
         die();
     }
 
-    file_put_contents("events.txt", "$name;$city;$state;$date;$start_time;$purpose;$long_description", FILE_APPEND);
+    file_put_contents("events.txt", "$name;$city;$state;$date;$start_time;$purpose;$long_description\n", FILE_APPEND);
     redirect_page("protests.php");
 
 
