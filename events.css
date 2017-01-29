@@ -32,7 +32,7 @@
 .cat{
   float:left;
   width: 30%;
-  height: 30%
+  height: 30%;
   color:white;
   margin-right: 12%;
   margin-bottom: 5%;
@@ -40,14 +40,10 @@
   background-color: pink;
   position: relative;
   left: 50px;
-  height: 40px;
   padding: 5% 3%;
-  width: 15%;
-  height: 20%;
   text-align: center;
   border-radius: 5%;
   text-decoration: none;
-  color: white;
  }
 
 #select{
