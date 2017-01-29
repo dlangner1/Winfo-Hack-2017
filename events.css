@@ -1,7 +1,9 @@
+
 body {
   background-color: #4C555C;
   color: white;
 }
+
 #nav-bar li {
     float: right;
 }
@@ -25,12 +27,12 @@ body {
     overflow: hidden;
     background-color: #838C9D;
 }
+
 #main {
   width: 95%;
   height: 70%;
   margin-left: 4%;
 }
-
 
 #categories {
   float:left;
@@ -50,13 +52,28 @@ body {
   font-size: 2vw;
 
 }
+.cat{
+  float:left;
+  width: 30%;
+  height: 30%;
+  color:white;
+  margin-right: 12%;
+  margin-bottom: 5%;
+  font-size: 3vw;
+  background-color: pink;
+  position: relative;
+  left: 50px;
+  padding: 5% 3%;
+  text-align: center;
+  border-radius: 5%;
+  text-decoration: none;
+ }
 
 #text{
   font-size: 1.5vw;
 }
 
+
 h2{
   margin-left: 4%;
 }
-
-

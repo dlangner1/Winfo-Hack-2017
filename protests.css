@@ -1,3 +1,7 @@
+p a  {
+    color: white;
+}
+
 body {
   background-color: #4C555C;
   color: white;
@@ -6,7 +10,7 @@ body {
 #create-button {
   background-color: #972E32;
   border-radius: 10px;
-  margin-top: 0px;
+  margin-top: 0;
   margin-left: auto;
   margin-right: auto;
   width: 150px;
@@ -37,6 +41,20 @@ header span, #create-button {
   font-size: 48pt;
 }
 
+.events {
+    font-size: 150%;
+    background-color: #972E32;
+    color: white;
+    margin-left: auto;
+    margin-left: auto;
+}
+
+.events img {
+    height: 15%;
+    width: 20%;
+    float: left;
+}
+
 #nav-bar li {
     float: right;
 }
@@ -59,4 +77,10 @@ header span, #create-button {
     padding: 0;
     overflow: hidden;
     background-color: #838C9D;
+}
+
+#upcoming {
+    text-align: center;
+    font-size: 30pt;
+    text-decoration: underline;
 }
