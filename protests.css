@@ -42,6 +42,7 @@ header span, #create-button {
 }
 
 .events {
+    margin-top: 20px;
     font-size: 150%;
     background-color: #972E32;
     color: white;

@@ -1,21 +1,21 @@
 body {
-  background-color: #4C555C;
-  color: white;
+    background-color: #4C555C;
+    color: white;
 }
 #nav-bar li {
     float: right;
 }
 
 #nav-bar li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 #nav-bar li a:hover {
-  background-color: #E0BFAC;
+    background-color: #E0BFAC;
 }
 
 #nav-bar ul {
@@ -27,39 +27,28 @@ body {
 }
 
 #main {
-  width: 100%;
-  height: 70%;
-  margin-top: 5%;
+    width: 100%;
+    height: 70%;
+    margin-top: 5%;
 }
 
 .cat1{
-  width: 80%;
-  margin-left: 18%;
+    width: 80%;
+    margin-left: 18%;
 }
 
 
-
-#img{
+.img{
     float:left;
     border-radius: 5%;
     margin-right: 3%;
     margin-bottom: 3%
-
-.cat {
-  float:left;
-  width: 30%;
-  height: 30%;
-  background-color: green;
-  color:white; 
-  margin-top: 5%;
-  margin-right: 10%;
-
 }
 
 .clear{
-        clear:both;
+    clear:both;
 }
 
 h1{
-  text-align: center;
+    text-align: center;
 }
